@@ -4,7 +4,8 @@ function addElementToBeginningOfArray(array, element){
   //var newArray = array
   //newArray.unshift(element)
   //return newArray
-  [element,...array]
+  var array = [element,...array]
+  return array
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
